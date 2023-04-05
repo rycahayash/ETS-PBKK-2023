@@ -120,7 +120,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.Azure;
+            textBox1.BackColor = SystemColors.ControlLightLight;
             textBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox1.Location = new Point(281, 189);
             textBox1.Name = "textBox1";
@@ -129,7 +129,7 @@
             // 
             // comboBox1
             // 
-            comboBox1.BackColor = Color.Azure;
+            comboBox1.BackColor = SystemColors.ControlLightLight;
             comboBox1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(281, 114);
@@ -139,7 +139,7 @@
             // 
             // comboBox2
             // 
-            comboBox2.BackColor = Color.Azure;
+            comboBox2.BackColor = SystemColors.ControlLightLight;
             comboBox2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
             comboBox2.Location = new Point(281, 152);
@@ -161,7 +161,7 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = Color.Azure;
+            textBox2.BackColor = SystemColors.ControlLightLight;
             textBox2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox2.Location = new Point(61, 399);
             textBox2.Name = "textBox2";
@@ -170,7 +170,7 @@
             // 
             // textBox3
             // 
-            textBox3.BackColor = Color.Azure;
+            textBox3.BackColor = SystemColors.ControlLightLight;
             textBox3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             textBox3.Location = new Point(281, 396);
             textBox3.Name = "textBox3";
@@ -181,7 +181,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
+            BackColor = Color.Azure;
             ClientSize = new Size(777, 496);
             Controls.Add(textBox3);
             Controls.Add(textBox2);

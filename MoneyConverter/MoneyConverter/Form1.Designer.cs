@@ -136,6 +136,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(406, 31);
             comboBox1.TabIndex = 8;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // comboBox2
             // 

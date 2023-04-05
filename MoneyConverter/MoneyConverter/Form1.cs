@@ -31,5 +31,16 @@ namespace MoneyConverter
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("d");
+            string[] items = {
+                "e",
+                "f",
+                "g"
+    };
+            comboBox1.Items.AddRange(items);
+        }
     }
 }
